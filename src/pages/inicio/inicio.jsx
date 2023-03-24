@@ -5,52 +5,19 @@ import "./inicio.css";
 const HomePage = () => {
   return (
     <div className="container">
-      <nav className="navbar navbar-expand-lg navbar-light ">
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item active ">
-              <a className="nav-link" href="/">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/registrar">
-                Cadastrar
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/alterar">
-                Alterar
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/consultar">
-                Consultar
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/excluir">
-                Excluir
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/listar">
-                Listar
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/busca-por-idade">
-                Busca por idade
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/idades-extremas">
-                Idades e médias
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <h1>O que é isso?</h1>
+      <p>
+        Este é um projeto demonstrativo criado em React com a finalidade de
+        realizar diversos tipos de operações com dados provenientes de uma API
+        alimentada por um banco de dados.
+      </p>
+      <h2>Qual as funções disponíveis?</h2>
+      <p>
+        A partir da navegação superior, é possível realizar as operações CRUD
+        (criar, ler, atualizar e excluir) e obter alguns relatórios a partir de
+        idades, bem como fazer o cálculo de médias utilizando diferentes
+        endpoints da API.
+      </p>
     </div>
   );
 };
